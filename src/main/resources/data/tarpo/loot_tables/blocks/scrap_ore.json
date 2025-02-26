@@ -1,0 +1,18 @@
+{
+    "type":"minecrat:block",
+    "pools":[{
+        "rolls":1,
+        "entries":[{
+            "type":"minecraft:item",
+            "name":"tarpo:scrap_fragment",
+            "functions":[{
+                "function":"set_count",
+                "count":
+                    {
+                    "min":1,
+                    "max":5
+                    }
+            }]
+        }]
+    }]
+}

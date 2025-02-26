@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures":{
+        "layer0": "tarpo:item/wands/divinity-wand-tier1-1"
+    }
+
+}

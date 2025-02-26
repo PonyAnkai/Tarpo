@@ -1,0 +1,14 @@
+{
+    "type":"minecrat:block",
+    "pools":[
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"tarpo:void_ore"
+                }
+            ]
+        }
+    ]
+}

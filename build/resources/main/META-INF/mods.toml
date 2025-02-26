@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory 
+license="MIT license"
+[[mods]] #mandatory
+modId="tarpo" #mandatory
+version="1.16.5-0.0.1" #mandatory
+displayName="Tarpo" #mandatory
+authors="Ponyah, Azair_inferia" #optional
+description='''Just a experiment a in creating mods'''
+
+
+[[dependencies.'tarpo']] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.'tarpo']]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

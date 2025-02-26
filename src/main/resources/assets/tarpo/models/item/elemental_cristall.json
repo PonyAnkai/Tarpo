@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":{
+        "layer0": "tarpo:item/cristalls/elemental_cristall"
+    }
+
+}

@@ -1,0 +1,18 @@
+{
+    "type":"minecrat:block",
+    "pools":[{
+        "rolls":1,
+        "entries":[{
+            "type":"minecraft:item",
+            "name":"tarpo:dirty_mana_cristall",
+            "functions":[{
+                "function":"set_count",
+                "count":
+                    {
+                    "min":1,
+                    "max":4
+                    }
+                }]
+            }]
+        }]
+}

@@ -1,0 +1,69 @@
+{
+    "item.tarpo.start-book":"§7Start book",
+    "tooltip.books.start-book":"§7idea: ",
+    "item.tarpo.start-edit":"§7Main",
+    "itemGroup.start-group":"§7Main",
+
+
+    "item.tarpo.divinity-book":"§eDivinity §eBook",
+    "tooltip.books.divinity-book":"§eEnlightenment: ",
+    "item.tarpo.divinity-edit":"§eDivinity",
+    "itemGroup.dinity-group":"§eDivinity",
+    "item.tarpo.divinity-wand-tier1-1":"§eWand §efaith",
+    "block.tarpo.mrable":"§eMrable",
+    "block.tarpo.mrable_brick":"§eMrable §ebricks",
+    "item.tarpo.devil_ingot":"§eDevil §eingot",
+    "item.tarpo.devil_nugget":"§eDevil §enugget",
+    "item.tarpo.idol_gibeli":"§eIdol §egod §eof §edeath",
+    "item.tarpo.legend":"§eShard §elegend §eof §ehero", 
+
+
+    "item.tarpo.mana-book":"§3Mana §3book",
+    "tooltip.books.mana-book":"§3Knowledge: ",
+    "item.tarpo.mana-edit":"§3Mana",
+    "itemGroup.mana-group":"§3Mana",
+    "block.tarpo.sapfire_ore":"§3Sapfire §3ore",
+    "item.tarpo.sapfire":"§3Sapfire",
+    "block.tarpo.dirty_mana_ore":"§3Dirty §3Mana-cristall §3ore",
+    "block.tarpo.mixed_cristallite_ore":"§3Mixed §3mana-cristall §3ore",
+    "item.tarpo.dirty_mana_cristall":"§3Dirty §3mana-cristall",
+    "item.tarpo.wind_cristall":"§3Wind §3mana-cristall",
+    "item.tarpo.fire_cristall":"§3Fire §3mana-cristall",
+    "item.tarpo.eather_cristall":"§3Eather §3mana-cristall",
+    "item.tarpo.aqua_cristall":"§3Aqua §3mana-cristall",
+    "item.tarpo.elemental_cristall":"§3Elemental §3mana-cristall",
+    
+    
+    "item.tarpo.prana-book":"§fPrana §fbook",
+    "tooltip.books.prana-book":"§fSacraments: ",
+    "item.tarpo.prana-edit":"§fPrana",
+    "itemGroup.prana-group":"§fPrana",
+    "block.tarpo.rube_ore":"§fRube §fore",
+    "item.tarpo.rube":"§fRube",
+    "block.tarpo.mercury_ore":"§fMercury §fore",
+    "item.tarpo.mercury_drop":"§fMercury §fdrop",
+    "block.tarpo.amber_ore":"§fAmber §fore",
+    "item.tarpo.amber":"§fAmber",
+    "block.tarpo.yan_ore":"§fYan §fore",
+    "item.tarpo.yan_shard":"§fYan §fshard",
+    "block.tarpo.yin_ore":"§fYin §fore",
+    "item.tarpo.yin_shard":"§fYin §fshard",
+    "item.tarpo.shard_immortal":"§fShard §fimmortal",
+    
+
+    "item.tarpo.chi-book":"§6Chi §6book",
+    "tooltip.books.chi-book":"§6Methods: ",
+    "item.tarpo.chi-edit":"§6Chi",
+    "itemGroup.chi-group":"§6Chi",
+    "block.tarpo.scrap_ore":"§6Scrap §6ore",
+    "item.tarpo.scrap_fragment":"§6Scrap §6fragment",
+    "block.tarpo.titane_ore":"§6Titan §6ore",
+    "item.tarpo.titan_ingot":"§6Titan §6ingot",
+    "block.tarpo.void_ore":"§6Empty §6ore",
+    "item.tarpo.void_ingot":"§6Empty §6ingot",
+    
+
+    "item.tarpo.creative-edit":"Other",
+    "item.tarpo.creative-group":"Creative",
+    "block.tarpo.taburet":"Taburet" 
+}

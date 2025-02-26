@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "tarpo:blocks/ores/dirty_mana_ore"
+    }
+  }
