@@ -1,5 +1,6 @@
 package net.ponyglory.tarpo;
 
+import net.ponyglory.tarpo.mobs.ModMobs;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -32,6 +33,7 @@ public class Tarpo
 
         RegistryItem.register(modEventBus);
         RegistryBlock.register(modEventBus);
+        ModMobs.register(modEventBus);
 
         modEventBus.addListener(this::setup);
 

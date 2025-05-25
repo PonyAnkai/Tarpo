@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures":{
+    "layer0": "tarpo:item/spawnEggs/dark_egg"
+  }
+}

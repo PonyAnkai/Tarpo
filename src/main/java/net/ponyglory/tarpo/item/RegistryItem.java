@@ -2,12 +2,20 @@ package net.ponyglory.tarpo.item;
 
 
 import net.minecraft.item.Item;
+import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.ponyglory.tarpo.Tarpo;
+import net.ponyglory.tarpo.item.custom.SpawnEggs;
+import net.ponyglory.tarpo.item.enums.itemTier;
 import net.ponyglory.tarpo.itemgroup.baseGroup;
+import net.ponyglory.tarpo.mobs.ModMobs;
+import net.ponyglory.tarpo.mobs.custom.DarkEntity;
+
+import static net.ponyglory.tarpo.mobs.ModMobs.*;
 
 public class RegistryItem {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Tarpo.MOD_ID);
@@ -94,6 +102,9 @@ public class RegistryItem {
     ()-> new Item(new Item.Properties().tab(baseGroup.PRANA_GROUP)));
     public static final RegistryObject<Item> AMBER = ITEMS.register("amber",
     ()-> new Item(new Item.Properties().tab(baseGroup.PRANA_GROUP)));
+    // EGGS
+    public static final RegistryObject<Item> DARK_EGG = ITEMS.register("dark_egg",
+            ()-> new SpawnEggs.DarkEggs(ModMobs.DARK, 0x464F56, 0x1D66336,new Item.Properties().tab(baseGroup.PRANA_GROUP)));
 
 
     // CHI
@@ -104,4 +115,9 @@ public class RegistryItem {
     ()-> new Item(new Item.Properties().tab(baseGroup.CHI_GROUP)));
     public static final RegistryObject<Item> SCRAP_FRAGMENT = ITEMS.register("scrap_fragment",
     ()-> new Item(new Item.Properties().tab(baseGroup.CHI_GROUP)));
+    public static final RegistryObject<Item> STEEL = ITEMS.register("steel",
+    ()-> new Item(new Item.Properties().tab(baseGroup.CHI_GROUP)));
+    // SWORD
+    public static final RegistryObject<Item> BLADE_DOOMED = ITEMS.register("blade_doomed",
+    ()-> new SwordItem(itemTier.STEEL, 1, 0f ,new Item.Properties().tab(baseGroup.CHI_GROUP).durability(750)));
 }

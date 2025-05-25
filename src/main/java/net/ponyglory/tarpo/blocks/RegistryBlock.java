@@ -123,7 +123,7 @@ public class RegistryBlock {
     // TEST 3D MODEL
     public static final RegistryObject<Block> TABURET = registerBlock(
         "taburet",
-        () -> new ModBlocks.Taburet(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(1).harvestTool(ToolType.AXE).requiresCorrectToolForDrops().strength(2f).noOcclusion()),
+        () -> new Decorations.Taburet(AbstractBlock.Properties.of(Material.WOOD).harvestLevel(1).harvestTool(ToolType.AXE).requiresCorrectToolForDrops().strength(2f).noOcclusion()),
         baseGroup.CREATIVE_GROUP
     );
 }
